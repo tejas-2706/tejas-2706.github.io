@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/tejas-2706/tejas-2706.github.io",
+  "homepage": "https://www.tejaspangaonkar.me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
