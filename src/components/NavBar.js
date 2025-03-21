@@ -52,7 +52,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="www.linkedin.com/in/tejas-pangaonkar-72286a224" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
+                <a href="www.linkedin.com/in/tejas-pangaonkar" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
                 <a href="https://x.com/pangaonkartejas" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/tejas_._2706_._/#" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
               </div>
