@@ -18,10 +18,10 @@ export const Contact = () => {
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
-      setFormDetails({
-        ...formDetails,
-        [category]: value
-      })
+    setFormDetails({
+      ...formDetails,
+      [category]: value
+    })
   }
 
   const handleSubmit = async (e) => {
@@ -38,9 +38,9 @@ export const Contact = () => {
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
+      setStatus({ succes: true, message: 'Message sent successfully' });
     } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
+      setStatus({ succes: false, message: 'Something went wrong, please try again later.' });
     }
   };
 
@@ -92,15 +92,20 @@ export const Contact = () => {
         </Row>
       </Container> */}
       <Container>
-        <div>
-        <h1>Please Check Out My Resume for hire!!</h1>
-        <button className="bg-white p-2 px-4">
-        <h3><a className="text-black" href="https://drive.google.com/file/d/11MIzGQJThSLBNmh2Guu5J3GRMRE2YXox/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></h3>
-        </button>
+        <div style={{paddingBottom:"20px"}}>
+          <h1>Please Check Out My Resume for hire!!</h1>
+          <button className="bg-white p-2 px-4">
+            <h3><a className="text-black" href="https://drive.google.com/file/d/11MIzGQJThSLBNmh2Guu5J3GRMRE2YXox/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></h3>
+          </button>
         </div>
         <div>
-        <h2>Contact Me at my mail</h2>
-        <h3 className="">pangaonkar.svc424@gmail.com</h3>
+          <h2>Contact Me at my mail</h2>
+          <h3
+          style={{textDecorationLine:"underline",cursor:"pointer"}}
+            onClick={() => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=pangaonkar.svc424@gmail.com", "_blank")}
+          >
+            pangaonkar.svc424@gmail.com
+          </h3>
         </div>
       </Container>
     </section>
