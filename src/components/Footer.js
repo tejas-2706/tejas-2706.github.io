@@ -4,6 +4,7 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon4 from "../assets/img/nav-icon4.svg";
 import React from 'react';
 
 export const Footer = () => {
@@ -20,6 +21,7 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/tejas-pangaonkar" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
                 <a href="https://x.com/pangaonkartejas" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/tejas_._2706_._/#" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/tejas-2706" target="_blank" rel="noopener noreferrer"><img src={navIcon4} alt="" /></a>
             </div>
             <p>Copyright 2025. All Rights Reserved</p>
           </Col>

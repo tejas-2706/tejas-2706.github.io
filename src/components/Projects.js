@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -43,11 +44,12 @@ export const Projects = () => {
       imgUrl: projImg3,
       siteUrl:"https://tejas-medium.vercel.app/"
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg1,
-    // },
+    {
+      title: "Task Manager App",
+      description: "Create your tasks and Manage using ScrumBoard with Drag and Drop Functionality",
+      imgUrl: projImg6,
+      siteUrl:"https://tejas-task-manager.vercel.app/"
+    },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
@@ -84,6 +86,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
+                      <p>Click on below images to visit the website</p>
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -97,11 +100,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>Click on below images to visit the website</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Click on below images to visit the website</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

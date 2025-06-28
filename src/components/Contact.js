@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+// import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+// import TrackVisibility from 'react-on-screen';
 import React from 'react';
+import { BoxArrowUpRight } from "react-bootstrap-icons";
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -95,7 +96,7 @@ export const Contact = () => {
         <div style={{paddingBottom:"20px"}}>
           <h1>Please Check Out My Resume for hire!!</h1>
           <button className="bg-white p-2 px-4">
-            <h3><a className="text-black" href="https://drive.google.com/file/d/11MIzGQJThSLBNmh2Guu5J3GRMRE2YXox/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></h3>
+            <h3><a className="text-black" href="https://drive.google.com/file/d/14qbs7h3y22Pu0s71Ly5OhSAeGgmr-PV8/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume <BoxArrowUpRight size={20}/></a></h3>
           </button>
         </div>
         <div>
